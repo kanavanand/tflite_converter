@@ -1,0 +1,50 @@
+﻿Conversion to Lite Format
+
+
+
+
+Import all the packages:
+* Tensorflow , numpy
+* Note : Tensorflow has not yet included all the modules of lite in the recent tensorflow version.
+* According to them it will be updated in 1.15 version.
+
+
+Make a zip file:
+* You should have a zip file which contains all the checkpoint files as well as frozen model file(.pb) extension.
+* Upload this zip directly into the colab. Take care about the directories where your model is uploaded and update them accordingly in the code.
+
+
+Names of the tensors:
+* Whenever you use the frozen graph we have their input and output tensors which we need to use them in the toco converter.
+* So Note: put them very accordingly  during calling the conversion function in main().
+* By default I have  put it -'prefix/input_node:0' and 'prefix/output_node:0'  respectively.
+
+
+Inputs in the conversion function
+
+
+1. Inputs for the conversion function:
+2. img_size_x  = Size of the input tensor.
+3. img_size=_y=Size of the input tensor.
+4. channels= Number of Channels.
+5. direc = path from where we should load all files..
+6. frozen_model_pb = frozen graph name
+7. checkpoint_path=the complete path and name of the meta file: 
+8. The file was-> “CD_Check_k/filename_CD.ckpt.meta”  
+9. Give input-  "CD_Check_k/filename_CD.ckpt" 
+
+
+How Conversion works.
+
+
+
+
+  
+
+
+
+
+
+
+
+Some Screenshots for the reference:
