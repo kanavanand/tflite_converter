@@ -1,0 +1,21 @@
+Metric,Type, Tensorflow, Tensorflow Lite,,,,
+"Model File Size
+(MB)",Screenshot,1.2,1.2,,,,
+,OD,1.2,1.2,,,,
+,CD,1.21,1.21,,,,
+,Total,3.61,3.61,,,,
+"Library File Size
+(Binary files)
+(MB) 
+  
+",arm64-v8a,16.2,1.2,,,tF,tFlite
+,armeabi,9,0.58,,iOS orginal,77MB,13MB
+,armeabi-v74,10.4,0.76,,Andriod,68.7MB,5.14MB
+,x84,16.6,1.2,,,,
+,x84_64,16.5,1.4,,,,
+,Total,68.7,5.14,,,,
+"Overall Functioning
+ Size(MB)",,72.31,8.75,,,,
+Response Time,Static,0.4 - 0.5,0.3 - 0.4,,,,
+,Smart,0.3 - 0.4,0.2 - 0.3,,,,
+,Nothing,0.2 - 0.3,0.1 - 0.2,,,,
